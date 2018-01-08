@@ -263,6 +263,10 @@ footer p {
 		height: 200px;
 		margin: 1px;
 	}
+
+	footer .social-footer li a {
+		padding: 0 5px;
+	}
 }
 
 @media(max-width: 400px) {
