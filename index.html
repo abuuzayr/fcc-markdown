@@ -72,9 +72,9 @@
 	</header>
 	<div class="container" id="app">
 		<div class="input">
-			<textarea></textarea>
+			<textarea v-model="markdown"></textarea>
 		</div>
-		<div class="output">
+		<div class="output" v-html="marked(markdown)">
 		</div>
 	</div>
 	<footer>
