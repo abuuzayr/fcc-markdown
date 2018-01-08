@@ -1,4 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+html {
+	height: 100%;
+}
+
 body {
 	font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -9,9 +14,10 @@ body {
 	position: relative;
 	width: 100%;
 	color: white;
-	background: rgba(28, 36, 65, 0.93);
 	background: url('../img/header.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
 /* Typography */
