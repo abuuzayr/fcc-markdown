@@ -216,9 +216,29 @@ footer p {
 	}
 }
 
-/* Input */
+/* App */
 
+#app {
+	display: flex;
+}
 
+.input, 
+.output {
+	flex: 1 1 50%;
+}
+
+.input textarea {
+	width: 100%;
+	height: 500px;
+}
+
+.output {
+	padding: 10px 20px;
+	background: #fff;
+	color: #333;
+	margin: 1px 10px 6px;
+	border-radius: 3px;
+}
 
 /* Media Queries */
 
